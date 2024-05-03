@@ -101,3 +101,4 @@ ScrollReveal().reveal('#about-title, #about-description, #about-picture', {easin
 ScrollReveal().reveal('#skill-reveal', {easing: 'cubic-bezier(0.5, 0, 0, 1)',  interval: 100});
 ScrollReveal().reveal('#project-reveal', {easing: 'cubic-bezier(0.5, 0, 0, 1)',  interval: 300});
 ScrollReveal().reveal('#contact-reveal', {easing: 'cubic-bezier(0.5, 0, 0, 1)',  interval: 100});
+ScrollReveal().reveal('#service-reveal', {easing: 'cubic-bezier(0.5, 0, 0, 1)',  interval: 100});
