@@ -1,0 +1,237 @@
+
+  /* Heading Underline */
+  
+  .underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline:before {
+    background-color: #fff;
+    bottom: -15px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 110%;
+  }
+
+  #loading-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center; /* Ito ay para i-center horizontally ang mga elemento */
+  }
+  
+    .loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    /*start services css*/
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        outline: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+  /* button */
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+
+/* button hire me */
+.button-download {
+	display: inline-block;
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	padding: .8em 1.4em;
+	padding-right: 4.7em;
+	background: #007BFF; /* Updated blue color */
+	border: none;
+	color: white;
+	transition: .2s;
+}
+
+.button-download::before,
+.button-download::after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding-top: inherit;
+	padding-bottom: inherit;
+	width: 2.8em;
+	content: "\00a0";
+	font-family: 'FontAwesome', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	transition: .2s;
+	transform-origin: 50% 60%;
+}
+
+.button-download::before {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.button-download:hover {
+	background: #0056b3; /* Updated hover blue color */
+}
+
+.button-download:active,
+.button-download:focus {
+	background: #004085; /* Updated active/focus blue color */
+	outline: none;
+}
+
+.button-download {
+	min-width: 12em;
+}
+
+/* Additional styles for .download class */
+.download {
+	background: #007BFF; /* Updated to match .button-download */
+}
+
+.download:hover {
+	background: #0056b3; /* Updated hover blue color */
+}
+
+.download:active,
+.download:focus {
+	background: #004085; /* Updated active/focus blue color */
+}
+
+.download::after {
+	content: "\f019";
+}
+
+.download:hover::after {
+	-webkit-animation: bouncedown .3s alternate ease infinite;
+	animation: bouncedown .3s alternate ease infinite;
+}
+
+@keyframes bouncedown {
+	from { transform: translateX(0); }
+	to   { transform: translateY(3px); }
+}
+
+
+/* start button hire me */
+/* button hire me */
+.button-arrow {
+	display: inline-block;
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	padding: .8em 1.4em;
+	padding-right: 4.7em;
+	background: #009ED8;
+	border: none;
+	color: white;
+	transition: .2s;
+}
+
+.button-arrow::before,
+.button-arrow::after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding-top: inherit;
+	padding-bottom: inherit;
+	width: 2.8em;
+	content: "\00a0";
+	font-family: 'FontAwesome', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	transition: .2s;
+	transform-origin: 50% 60%;
+}
+
+.button-arrow::before {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.button-arrow:hover {
+	background: #0086B2;
+}
+
+.button-arrow:active,
+.button-arrow:focus {
+	background: #005D82;
+	outline: none;
+}
+
+.button-arrow {
+	min-width: 12em;
+}
+
+.arrow {
+	background: #FE5F55;
+}
+
+.arrow:hover {
+	background: #E6554D;
+}
+
+.arrow:active,
+.arrow:focus {
+	background: #993D37;
+}
+
+.arrow::after {
+	content: "\F054";
+}
+
+.arrow:hover::after {
+	-webkit-animation: bounceright .3s alternate ease infinite;
+	animation: bounceright .3s alternate ease infinite;
+}
+
+@keyframes bounceright {
+	from { transform: translateX(0); }
+	to   { transform: translateX(3px); }
+}
+
+/* start skills button desin */
+.nav-pills .nav-link {
+  padding: 0px;
+  background: whitesmoke;
+}
+
+.nav-pills .nav-link h6 {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.nav-pills .nav-link.active {
+  background: #007bff; /* Change this to the desired active background color */
+  color: white; /* Change this to the desired active text color */
+}
+
+.nav-pills .nav-link.active h6 {
+  color: white; /* Ensures the h6 text is also white when active */
+}
+
+.nav-pills .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Add some padding to the ul element for better spacing */
+.nav-pills {
+  padding: 10px;
+}
